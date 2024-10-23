@@ -2,7 +2,7 @@ module testbench;
     reg a,b;
     wire y;
 
-    and_gate UUT(
+    nand_gate UUT(
         .a(a), 
         .b(b),
         .y(y)
